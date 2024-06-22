@@ -9,7 +9,7 @@ public class Keywords {
         job = "Java Developer";
 
         long pack; //here ,first i gave variable name as "package" its show error "Compile error as we have given keyword as a variable name"
-        //thus why i change its "pack"
+        //thus why , change its "pack"
         pack = 50_00_000;
 
         System.out.println(age+" "+job+" "+pack);
