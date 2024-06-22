@@ -3,7 +3,7 @@ package com.Narasimha.java.DAY1;
 public class Keywords {
     public static void main(String[] args) {
         int age;
-        age = 25;
+        age = 25; // value=25
 
         String job;
         job = "Java Developer";
