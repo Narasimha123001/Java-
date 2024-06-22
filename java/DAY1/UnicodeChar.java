@@ -1,4 +1,4 @@
-package com.Narasimha.java;
+package com.Narasimha.java.DAY1;
 
 
 public class UnicodeChar {
