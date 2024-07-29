@@ -1,8 +1,8 @@
 package com.Narasimha.java.DAY3.CodingQuestion.Task;
-
+// fibonacciSeries of given number
 public class FibonacciSeries {
     public static void main(String[] args) {
-        int num1 = 0,num2 = 1;
+        int num1 = 0, num2 = 1;
         System.out.println(num1+ " " +num2);
         int sum = num1 + num2;
 
