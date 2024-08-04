@@ -58,4 +58,48 @@ public class Student {
         System.out.println("BRANCH: " +student3.Branch);
         System.out.println("GRADE: " +student3.Grade);
     }
+
+    public static class InventoryItem {
+
+        int itemCode;
+
+        String itemName;
+
+        int QuantityInStock;
+
+        float itemPrize;
+
+        int itemExDate;
+
+        public static void main(String[] args) {
+            InventoryItem obj1 =  new InventoryItem();
+            InventoryItem obj2 = new InventoryItem();
+
+            obj1.itemCode=12345;
+            obj1.itemName="Bourbon Biscuit";
+            obj1.itemPrize=20;
+            obj1.itemExDate=2027;
+            obj1.QuantityInStock=10000;
+
+            obj2.itemCode=67893;
+            obj2.itemName="Marie Gold Biscuit";
+            obj2.itemPrize=20;
+            obj2.itemExDate=2026;
+            obj2.QuantityInStock=652014;
+
+            System.out.println("***************");
+            System.out.println("Id No: " + obj1.itemCode);
+            System.out.println("ItemName: " + obj1.itemName);
+            System.out.println("ItemPrize: " + obj1.itemPrize);
+            System.out.println("ItemExpDate: " + obj1.itemExDate);
+            System.out.println("Stock: " + obj1.QuantityInStock);
+            System.out.println("***************");
+            System.out.println("Id No: " + obj2.itemCode);
+            System.out.println("ItemName: " + obj2.itemName);
+            System.out.println("ItemPrize: " + obj2.itemPrize);
+            System.out.println("ItemExpDate: " + obj2.itemExDate);
+            System.out.println("Stock: " + obj2.QuantityInStock);
+
+        }
+    }
 }
